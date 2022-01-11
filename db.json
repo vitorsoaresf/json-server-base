@@ -6,6 +6,81 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "guaragas@mail.com",
+      "password": "$2a$10$p6hx71hNfLTXKCsifPFO5.dmXBDyQ4hoO8Z/PA3tNUThUa0Dj/dAi",
+      "name": "Guaragas",
+      "age": 29,
+      "id": 2
+    },
+    {
+      "email": "fulano@mail.com",
+      "password": "$2a$10$rvIsY4m9q6/VihoSNOp9C.gWf/CJSb8yElaju1r1qZIgkmtuCs.PC",
+      "nome": "Fulano",
+      "age": 40,
+      "id": 3
+    },
+    {
+      "email": "nacionalgas@mail.com",
+      "password": "$2a$10$GONcyy12tuty7IBlLXN9zu4cS1zD8F0sWw0dsBPj2N/4kfK/izmWO",
+      "nome": "Nacional Gás",
+      "age": 100,
+      "id": 4
+    }
+  ],
+  "empresas": [
+    {
+      "name": "Guaragás",
+      "description": "Entregamos gás",
+      "produtos": [
+        {
+          "name": "gás p-13",
+          "price": 105
+        },
+        {
+          "name": "gás p-20",
+          "price": 200
+        },
+        {
+          "name": "gás p-45",
+          "price": 400
+        }
+      ],
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "name": "Nacional Gás",
+      "description": "Distribuímos gás para revendedores",
+      "produtos": [
+        {
+          "name": "gás p-13",
+          "price": 50
+        },
+        {
+          "name": "gás p-20",
+          "price": 100
+        },
+        {
+          "name": "gás p-45",
+          "price": 295.5
+        }
+      ],
+      "userId": 4,
+      "id": 2
+    }
+  ],
+  "produtos": [
+    {
+      "name": "gás p13",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "name": "gás p45",
+      "userId": 4,
+      "id": 2
     }
   ]
 }
