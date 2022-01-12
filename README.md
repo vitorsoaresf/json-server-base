@@ -50,6 +50,12 @@ Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"<br><br><br>
 
+### <strong> \* LEITURA DE USUÁRIOS\*</strong><br><br>
+
+- GET/users
+
+Esse endpoint pode ser usado para realizar leitura dos usuários cadastrados na lista de "Users". Esses dados serão trazidos com os produtos cadastrados e empresas cadastradas de cada usuário.<br><br><br><br>
+
 # Empresas<br>
 
 ### <strong> \* CADASTRO \*</strong>

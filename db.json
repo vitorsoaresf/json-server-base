@@ -33,40 +33,12 @@
     {
       "name": "Guaragás",
       "description": "Entregamos gás",
-      "produtos": [
-        {
-          "name": "gás p-13",
-          "price": 105
-        },
-        {
-          "name": "gás p-20",
-          "price": 200
-        },
-        {
-          "name": "gás p-45",
-          "price": 400
-        }
-      ],
       "userId": 2,
       "id": 1
     },
     {
       "name": "Nacional Gás",
       "description": "Distribuímos gás para revendedores",
-      "produtos": [
-        {
-          "name": "gás p-13",
-          "price": 50
-        },
-        {
-          "name": "gás p-20",
-          "price": 100
-        },
-        {
-          "name": "gás p-45",
-          "price": 295.5
-        }
-      ],
       "userId": 4,
       "id": 2
     }
@@ -78,9 +50,26 @@
       "id": 1
     },
     {
+      "name": "gás p20",
+      "price": 200.5,
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "gás p45",
+      "price": 400.0,
+      "userId": 2,
+      "id": 3
+    },
+    {
       "name": "gás p45",
       "userId": 4,
-      "id": 2
+      "id": 4
+    },
+    {
+      "name": "Água Mineral",
+      "userId": 4,
+      "id": 5
     }
   ]
 }

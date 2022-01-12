@@ -9,7 +9,7 @@ const router = jsonServer.router("db.json");
 app.db = router.db;
 
 const rules = auth.rewriter({
-  users: 600,
+  "/users": "/644/users/?_embed=produtos&_embed=empresas",
   empresas: 644,
   produtos: 640,
 });
